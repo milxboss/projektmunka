@@ -1,0 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+header h1{
+    background-color: gray;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.carText{
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-size: 2.5rem;
+}
