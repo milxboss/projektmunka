@@ -1,20 +1,71 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(57, 109, 131);
+}
 img{
     width: 100%;
 }
-header h1{
-    background-color: gray;
+/*header h1{
+    background-color: rgb(63, 105, 123);
     margin: 0;
     color: white;
     text-align: center;
     padding: 2rem;
-}
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}*/
 .carText{
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     font-size: 2.5rem;
+}
+
+.carousel{
+    
+}
+
+.container{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.btn {
+    background-color:  rgb(60, 183, 236);
+    border: 2px solid #000;
+    border-radius: 30px;
+    box-shadow: #000 4px 4px 0 0;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn:hover {
+    background-color: rgb(33, 108, 140);
+    color: white;
+    border: #000 4px 4px 0 0;
+}
+
+.btn:active {
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .btn {
+    min-width: 100px;
+    padding: 0 25px;
+    border: #000 4px 4px 0 0;
+  }
 }
