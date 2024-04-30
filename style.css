@@ -9,21 +9,10 @@ body{
 img{
     width: 100%;
 }
-/*header h1{
-    background-color: rgb(63, 105, 123);
-    margin: 0;
-    color: white;
-    text-align: center;
-    padding: 2rem;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
-}*/
+
 .carText{
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     font-size: 2.5rem;
-}
-
-.carousel{
-    
 }
 
 .container{
@@ -68,4 +57,14 @@ img{
     padding: 0 25px;
     border: #000 4px 4px 0 0;
   }
+}
+
+.porscheWeb{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
 }

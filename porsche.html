@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porsche</title>
+  <link rel="stylesheet" href="porsche.css">
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">
+      <h2 class="card-title">Porsche</h2>
+      <span class="close">&times;</span>
+    </div>
+    <div class="card-body">
+      <div class="tabs">
+        <button class="tablink active" onclick="openTab(event, 'Tab1')">Története</button>  
+        <button class="tablink" onclick="openTab(event, 'Tab2')">Személyes kedvencünk</button>
+      </div>
+      <div id="Tab1" class="tabcontent" style="display:block;">
+        Tartalom 1
+      </div>
+      <div id="Tab2" class="tabcontent">
+        Tartalom 2
+      </div>
+    </div>
+  </div>
+
+  <script src="porsche.js"></script>
+</body>
+</html>
