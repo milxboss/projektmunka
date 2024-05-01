@@ -3,15 +3,23 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-image: url("./pics/bg3dark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
+a{
+    color: white;
+    text-decoration: none;
+}
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(90, 81, 81, 0.392);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: white;
+    border: 3px solid rgb(88, 88, 88);
 }
 
 .card {
@@ -20,7 +28,7 @@ body {
 }
 
 .card-header {
-    background-color: #333;
+    background-color: #6c6c6c;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -28,6 +36,7 @@ body {
 
 .card-title {
     margin: 0;
+    
 }
 
 .card-body {
@@ -38,11 +47,11 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .tablink {
-    background-color: #f4f4f4;
+    background-color: #6c6c6c;
     border: none;
     outline: none;
     cursor: pointer;
@@ -50,22 +59,23 @@ body {
     float: none;
     transition: background-color 0.3s;
     border-radius: 5px;
+    color: white;
     font-size: 18px;
+
 }
 
 .tablink:hover,
 .tablink.active {
     background-color: #ddd;
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
     transform: translateY(-2px);
 }
 
 .tabcontent {
     display: none;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
 }
 
 .tabcontent p:nth-child(1){
@@ -83,7 +93,7 @@ body {
 }
 
 .tabcontent img:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .car-image {
@@ -111,9 +121,4 @@ body {
     .personal-favorites {
         flex-direction: column;
     }
-}
-
-a{
-    text-decoration: none;
-    color: #000;
 }
