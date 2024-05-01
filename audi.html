@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audi</title>
+  <link rel="stylesheet" href="audi.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h1 class="card-title">Audi</h1>
+      </div>
+      <div class="card-body">
+        <div class="tabs">
+          <button class="tablink active" onclick="openTab(event, 'Tab1')">Története</button>
+          <button class="tablink" onclick="openTab(event, 'Tab2')">Személyes kedvencünk</button>
+        </div>
+        <div id="Tab1" class="tabcontent" style="display:block;">
+          <p>
+            Az Audi története az 1900-as évek elejére nyúlik vissza, amikor August Horch megalapította az Autowerke GmbH-t Zwickauban, Németországban. Az első autó, amit 1901-ben gyártottak, az "A" típus volt. 1909-ben August Horch távozott a cégtől, és alapított egy másik autógyárat, ami később az Audi elődje lett. Az Audi nevet először 1910-ben használták a Horch Autógyár termékeire, és hivatalosan 1917-ben regisztrálták. Az Audi, a DKW és a Horch márkákat egyesítették 1932-ben a Auto Union nevű vállalat alatt. Az Auto Union gyártotta az első négyhengeres motorral szerelt Audi autót is. Az 1960-as években az Auto Union csatlakozott a Volkswagen csoportba, és az Audi márkát 1969-ben újraélesztették a piacra dobott Audi 100 modellel. Az Audi azóta számos innovatív autót és technológiát vezetett be, és a luxus autógyártás egyik meghatározó szereplőjévé vált a világpiacon.</p>
+          <img src="./pics/audi-type.jpg" alt="Audi Type-A" class="car-image">
+          <img src="./pics/audi-k.jpg" alt="Audi Type-K" class="car-image">
+        </div>
+        <div id="Tab2" class="tabcontent">
+          <p>Itt mutatjuk be személyes kedvencünket az Audi kínálatából.</p>
+          <div class="personal-favorites">
+            <div class="favorite">
+              <h2>Milán személyes kedvence:</h2>
+              <img src="./pics/audi-rs6.jpg" alt="Milán kedvenc" class="car-image">
+              <p>Audi RS6 C8</p>
+            </div>
+            <div class="favorite">
+              <h2>Göröcs személyes kedvence:</h2>
+              <img src="" alt="Göröcs kedvenc" class="car-image">
+              <p>asd</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="audi.js"></script>
+</body>
+</html>

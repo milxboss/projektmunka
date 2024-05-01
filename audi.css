@@ -67,6 +67,11 @@ body {
     border-radius: 5px;
 }
 
+.tabcontent p:nth-child(1){
+    margin-top: 0;
+    font-size: 20px;
+}
+
 .tabcontent img {
     width: 100%;
     max-width: 350px;
